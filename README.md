@@ -1,7 +1,7 @@
 # Simple Spring Security project
 
-![Image alt](https://github.com/m1cron/SimpleSpringSecurity/tree/master/screens/1.png)
-![Image alt](https://github.com/m1cron/SimpleSpringSecurity/tree/master/screens/2.png)
+![Image alt](https://github.com/m1cron/SimpleSpringSecurity/raw/master/screens/1.png)
+![Image alt](https://github.com/m1cron/SimpleSpringSecurity/raw/master/screens/2.png)
 
 ### Login:Password
 ```
