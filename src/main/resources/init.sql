@@ -13,13 +13,13 @@ CREATE TABLE authorities (
 
 INSERT INTO users (username, password, enabled)
 VALUES
-('zaur', '{noop}zaur', 1),
-('elena', '{noop}elena', 1),
-('ivan', '{noop}ivan', 1);
+('maxim', '{bcrypt}$2a$10$fD5T.n4d.dC0hK7Coonw2uaYSvzoiLFKdipKS0sX60zKtiFA/hy2O', 1),
+('micron', '{bcrypt}$2a$10$ydjhGVD08jNLpHnVcf6pRuBCi4jtTBLVcxmgJZ6Qs1qFhZd.eYJ/G', 1),
+('admin', '{bcrypt}$2a$10$mvbpr0YJoukw03Zq//CUreSqeDHyUFkfng92KkR.MCdHsVxOLYJXS', 1);
 
 INSERT INTO authorities (username, authority)
 VALUES
-('zaur', 'ROLE_EMPLOYEE'),
-('elena', 'ROLE_HR'),
-('ivan', 'ROLE_HR'),
-('ivan', 'ROLE_MANAGER');
+('maxim', 'ROLE_EMPLOYEE'),
+('micron', 'ROLE_HR'),
+('admin', 'ROLE_HR'),
+('admin', 'ROLE_MANAGER');
